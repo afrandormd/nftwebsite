@@ -1,0 +1,26 @@
+.container{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jc-sb{
+  justify-content: space-between;
+}
+
+.ai-center{
+  align-items: center;
+}
+
+/*Formula*/
+@for $i from 1 through 12{
+  .col#{$i}{
+    width: calc(100% / ( 12 / $i )) - 3%;
+    margin: 1.5%;
+  }
+}

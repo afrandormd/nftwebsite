@@ -1,0 +1,44 @@
+.nav-container{
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 1.5%;
+  padding: 10px 0;
+  a{
+    color: black;
+  }
+  &-menu{
+    a{
+      &:hover{
+      text-decoration: underline;
+      }
+    }
+    padding: 10px;
+    span{
+      background: black;
+      color: white;
+      padding: 3px 12px;
+      border-radius: 4px;
+    }
+  }
+  &-side{
+    a{
+      .profile{
+        position: relative;
+        top: 10px;
+        margin-left: 10px;
+        img{
+          width: 30px;
+          height: 30px;
+          border-radius: 30px;
+          border: 2px solid black;
+        }
+      }
+    }
+  }
+}

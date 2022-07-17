@@ -1,0 +1,12 @@
+{
+  "name": "nftwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "sass": "live-server & sass --watch css/:css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
