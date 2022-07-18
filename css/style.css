@@ -78,6 +78,95 @@
   margin: 1.5%;
 }
 
+/*Responsive Breakpoints*/
+@media screen and (max-width: 850px) {
+  .col1-md {
+    width: 5.3333333333%;
+    margin: 1.5%;
+  }
+  .col2-md {
+    width: 13.6666666667%;
+    margin: 1.5%;
+  }
+  .col3-md {
+    width: 22%;
+    margin: 1.5%;
+  }
+  .col4-md {
+    width: 30.3333333333%;
+    margin: 1.5%;
+  }
+  .col5-md {
+    width: 38.6666666667%;
+    margin: 1.5%;
+  }
+  .col6-md {
+    width: 47%;
+    margin: 1.5%;
+  }
+  .col7-md {
+    width: 55.3333333333%;
+    margin: 1.5%;
+  }
+  .col8-md {
+    width: 63.6666666667%;
+    margin: 1.5%;
+  }
+  .col9-md {
+    width: 72%;
+    margin: 1.5%;
+  }
+  .col10-md {
+    width: 80.3333333333%;
+    margin: 1.5%;
+  }
+  .col11-md {
+    width: 88.6666666667%;
+    margin: 1.5%;
+  }
+  .col12-md {
+    width: 97%;
+    margin: 1.5%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .col7 {
+    width: 100%;
+  }
+  .col8 {
+    width: 100%;
+  }
+  .col9 {
+    width: 100%;
+  }
+  .col10 {
+    width: 100%;
+  }
+  .col11 {
+    width: 100%;
+  }
+  .col12 {
+    width: 100%;
+  }
+}
 /*Reset Element*/
 * {
   margin: 0;
@@ -104,6 +193,11 @@
 }
 .nav-menu {
   padding: 10px;
+}
+@media screen and (max-width: 560px) {
+  .nav-menu {
+    padding: 20px 0;
+  }
 }
 .nav-menu a:hover {
   text-decoration: underline;
@@ -211,6 +305,12 @@
   font-weight: 300;
   letter-spacing: 2px;
   color: #666;
+}
+@media screen and (max-width: 850px) {
+  .hero-community {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .hero-community .hc-item {
   margin: 30px 0;
