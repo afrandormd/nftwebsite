@@ -123,7 +123,7 @@
   width: 30px;
   height: 30px;
   border-radius: 30px;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .btn {
@@ -143,6 +143,102 @@
 .btn-outline:hover {
   background-color: black;
   color: white;
+}
+
+.hero {
+  padding: 5% 0;
+}
+.hero-desc .tag {
+  background-color: black;
+  display: inline-block;
+  padding: 3px 12px;
+  color: white;
+  margin-bottom: 10px;
+}
+.hero-desc h1 {
+  font-weight: 3em;
+  font-weight: 300;
+  line-height: 120%;
+}
+.hero-desc h1 span {
+  font-weight: 600;
+}
+.hero-desc p {
+  line-height: 180%;
+  margin-top: 20px;
+  color: #666;
+}
+.hero-desc a {
+  color: black;
+  display: inline-block;
+  margin-top: 30px;
+}
+.hero-card {
+  border: 2px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.hero-card_header {
+  display: flex;
+}
+.hero-card_header .hch-title {
+  display: flex;
+}
+.hero-card_header .hch-title .rate {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.hero-card_detail {
+  display: flex;
+}
+.hero-card_detail #time {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hero-card_detail #time .desc {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #666;
+}
+.hero-card_detail .bid-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hero-card_detail .bid-desc {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #666;
+}
+.hero-community .hc-item {
+  margin: 30px 0;
+}
+.hero-community .hc-item h3 {
+  font-size: 30px;
+}
+.hero-community .hc-item p {
+  color: #666;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-beetwen;
+}
+.footer-social a {
+  color: black;
+  height: 32px;
+  margin: 0 5px;
+}
+.footer .row {
+  border-top: 1px solid black;
 }
 
 /*# sourceMappingURL=style.css.map */

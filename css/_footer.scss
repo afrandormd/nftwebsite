@@ -1,0 +1,15 @@
+.footer{
+  &-social{
+    display: flex;
+    justify-content: space-beetwen;
+    a{
+      color: black;
+      height: 32px;
+      margin: 0 5px;
+    }
+  }
+  
+  .row{
+    border-top: 1px solid black;
+  }
+}
